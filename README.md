@@ -84,7 +84,7 @@ Parameter zur Manipulation einer Ressource werden im Request Body mitgesendet un
 
 Einige Ressourcen benötigen Authentifizierung, dazu muss beim Request eine für das Man!ac-Forum gültige Username / Passwort Kombination im HTTP-Header in Form von Basic Authentication nach RFC 2617 mitgesendet werden. Wenn eine Ressource eine gültige Authentifizierung benötigt ist dies mit **`NEEDS AUTHENTICATION`** unterhalb der URI markiert.
 
-### <a name="user-content-responses"></a>Responses
+### <a name="user-content-responses-service"></a>Responses
 
 Bei der Verwendung der API ist der HTTP Status Code der Server Response zu beachten. Alle gültigen Requests erhalten eine Response mit Code 200, im Fehlerfall wird der entsprechende Code laut RFC 7231 und eine Beschreibung des Fehlers im Feld `error` zurückgegeben. Alle spezifischen Error Responses der einzelnen Ressourcen werden als _Example Error Response_ zu der jeweiligen Ressource beschrieben.
 
@@ -1119,7 +1119,7 @@ Das neuste Mitglied des Forums.
         "username": "Marty"
     }
 
-# <a name="uuser-content-responses"></a>Responses
+# <a name="user-content-responses"></a>Responses
 
 Liste aller Antworten, die ein Benutzer auf seine Beiträge erhalten hat. Die Liste wird aus dem Cache berechnet und erfolgt ohne Zugriff auf das Maniac Forum.
 
