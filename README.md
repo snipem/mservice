@@ -33,7 +33,7 @@ M!service ist ein in JavaScript geschriebener Serverdienst, der eine RESTful JSO
 	- [Search Threads](#user-content-search-threads)
 	- [User](#user-content-user)
 	- [Latest User](#user-content-latest-user)
-	- [Responses](#user-content-responses)
+	- [Responses](#user-content-responses-service)
 - [Lizenz](#user-content-lizenz)
 
 
@@ -1119,7 +1119,7 @@ Das neuste Mitglied des Forums.
         "username": "Marty"
     }
 
-# <a name="user-content-responses"></a>Responses
+# <a name="user-content-responses-service"></a>Responses
 
 Liste aller Antworten, die ein Benutzer auf seine Beiträge erhalten hat. Die Liste wird aus dem Cache berechnet und erfolgt ohne Zugriff auf das Maniac Forum.
 
